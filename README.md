@@ -1,11 +1,11 @@
 # IGARSS 2026 Summer School
 ## AI Refusnik to AI Evangelist: Excellent at AI-Assisted Coding for Satellite Image Analysis
 
-**Instructor:** Prof. Edward Oughton, George Mason University
+**Instructor:** Ed Oughton, George Mason University
 
 **Event:** IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2026 Summer School
 
-**Session length:** 2–3 hours (three ~60-minute parts)
+**Session length:** 2–3 hours (three ~50-minute parts)
 
 **Audience:** First and second year PhD students with some Python experience
 
@@ -16,10 +16,12 @@
 This session takes participants on a practical journey from satellite image data acquisition through
 to AI-assisted processing pipelines, with a rigorous focus on testing and validation at the end.
 
-The title reflects a real journey many researchers take: from initial scepticism about AI coding
+The title reflects a real journey many researchers take (including myself), for example, from initial scepticism about AI coding
 tools to becoming a productive, critical user who understands both the power and the risks.
 
-### The three-part structure
+Importantly, it is imperative that students (i) exercise their critical thinking skills while developing AI-assisted code and interpreting results, and (ii) essential that all outputs are tested and validated (as code will always be garbage in, garbage out). 
+
+### We have a three-part structure for the afternoon
 
 | Part | Topic | Duration |
 |---|---|---|
