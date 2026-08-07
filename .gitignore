@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# OS and local plotting caches
+.DS_Store
+.mplcache/
+.matplotlib/
+
 # C extensions
 *.so
 
@@ -129,6 +134,22 @@ dmypy.json
 .pyre/
 
 
-data/
-igarss26_data/
-bolobo_pilot/
+/data/
+/igarss26_data/
+
+# Notebook 2: ignore future pilot artifacts while tracking only the compact
+# reproducibility bundle (24 masks, scene log, context inset, and reference).
+/bolobo_pilot/*
+!/bolobo_pilot/download_log_sentinel-2.csv
+!/bolobo_pilot/sentinel2_wet_occurrence.tif
+!/bolobo_pilot/context/
+/bolobo_pilot/context/*
+!/bolobo_pilot/context/ne_110m_admin_0_countries.zip
+!/bolobo_pilot/masks/
+/bolobo_pilot/masks/*
+!/bolobo_pilot/masks/sentinel-2/
+/bolobo_pilot/masks/sentinel-2/*
+!/bolobo_pilot/masks/sentinel-2/*/
+/bolobo_pilot/masks/sentinel-2/*/*
+!/bolobo_pilot/masks/sentinel-2/*/*_whole_aoi_valid.tif
+!/bolobo_pilot/masks/sentinel-2/*/*_whole_aoi_water.tif
