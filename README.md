@@ -1,5 +1,5 @@
 # IGARSS 2026 Summer School
-## AI Refusnik to AI Evangelist: Excellent at AI-Assisted Coding for Satellite Image Analysis
+## AI Refusnik to AI Evangelist: Excelling at AI-Assisted Coding for Satellite Image Analysis
 
 **Instructor:** Ed Oughton, George Mason University
 
